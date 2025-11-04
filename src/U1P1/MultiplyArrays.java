@@ -7,8 +7,6 @@ public class MultiplyArrays {
         int secondArray[] = new int[5];
         int resultArray[] = new int[5];
 
-        //create
-        //multiply first and second array
 
         firstArray[0] = 7;
         firstArray[1] = 8;
@@ -26,12 +24,7 @@ public class MultiplyArrays {
             resultArray[i] = firstArray[i] * secondArray[i];
            // System.out.println(resultArray[i]);
         }
-
-        //sum everything
-        int sumArray = 0;
         for(int i=0; i<resultArray.length; i++) {
-            sumArray = sumArray + resultArray[i];
-            System.out.println(sumArray);
         }
 
 

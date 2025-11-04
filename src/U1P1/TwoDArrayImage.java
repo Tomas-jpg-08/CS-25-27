@@ -2,7 +2,7 @@ package U1P1;
 
 import java.sql.SQLOutput;
 
-public class TwoDArraysImage {
+public class TwoDArrayImage {
     public static void main(String[] args) {
         char[][] pattern = {
                 {'.', '.', '#', '#', '.', '.', '.', '.'},
@@ -41,14 +41,6 @@ public class TwoDArraysImage {
                 System.out.print(mPattern[i][j]);
             }
             System.out.println();
-
-        for (int j = 0; j<mPattern[i].length; j++)
-        {
-            for(int i = 0; i<mPattern[j][i])
-            {
-                System.out.print(mPattern[j][i]);
-            }
-        }
         }
 
 
