@@ -11,6 +11,15 @@ public class ArrayMessage {
 
         // Transpose the rawSignal
 
+        int rows = rawSignal.length;
+        int cols = rawSignal[0].length;
+        int[][] transpose = new int[rows][cols];
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                transpose [j][i] = rawSignal[i][j];
+            }
+        }
+
 
        
         // vertically reflect every even indexed column
